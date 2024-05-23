@@ -6,7 +6,7 @@ function jogar() {
     
     var randomSidePlayer1Dice = "dice" + randomNumberPlayer1Dice + ".png";// Constrói o nome do arquivo da imagem correspondente ao número gerado para o dado do jogador 1
     
-    var randomImageAtributePlayer1 = "/aula01.11Dado/assets/ImagensDados/" + randomSidePlayer1Dice;// Constrói o caminho completo para a imagem do dado do jogador 1
+    var randomImageAtributePlayer1 = "/assets/ImagensDados/" + randomSidePlayer1Dice;// Constrói o caminho completo para a imagem do dado do jogador 1
     
     var imagePlayer1 = document.querySelector('.img1');// Seleciona o elemento da imagem do jogador 1 no documento HTML
     
@@ -16,7 +16,7 @@ function jogar() {
     
     var randomSidePlayer2Dice = "dice" + randomNumberPlayer2Dice + ".png";// Constrói o nome do arquivo da imagem correspondente ao número gerado para o dado do jogador 2
     
-    var randomImageAtributePlayer2 = "/aula01.11Dado/assets/ImagensDados/" + randomSidePlayer2Dice;// Constrói o caminho completo para a imagem do dado do jogador 2
+    var randomImageAtributePlayer2 = "/assets/ImagensDados/" + randomSidePlayer2Dice;// Constrói o caminho completo para a imagem do dado do jogador 2
     
     var imagePlayer2 = document.querySelector('.img2');// Seleciona o elemento da imagem do jogador 2 no documento HTML
     
