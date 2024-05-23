@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1; /* Permite que o container cresça e ocupe o espaço disponível */
+    color: rgb(226, 212, 212);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #51cf31;
+}
+
+button {
+    padding: 10px 30px; /* Aumenta o espaçamento interno do botão */
+    font-size: 18px; /* Aumenta o tamanho da fonte do botão */
+    border-radius: 10px; /* Bordas arredondadas do botão */
+    border: none; /* Remove a borda padrão */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Cursor muda para pointer quando o botão é hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao botão */
+    transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transições suaves para hover e clique */
+}
+
+.container > * {
+    margin: 10px 0; /* Espaçamento vertical entre os elementos */
+}
+
+footer {
+    align-self: flex-end; /* Alinha o footer à direita */
+    margin: 10px; /* Adiciona um pequeno espaçamento ao redor do footer */
+    border: 5px solid #996427f6; /* Cor da borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+}
